@@ -158,6 +158,9 @@ nav {
     border: none;
     border-bottom: 2px solid white;
     background-color: transparent;
+    font-family: cream;
+    font-size: 3vh;
+    color: white;
 }
 
 .formulario input::placeholder{
@@ -169,6 +172,9 @@ nav {
 .formulario input:focus{
     box-shadow: 0 0 0 0;
     outline: 0;
+    font-family: cream;
+    font-size: 3vh;
+    color: white;
 }
 
 .checkbox {
