@@ -1,6 +1,15 @@
+@font-face {
+    font-family: cream;
+    src: url(../fonts/cream-DEMO.ttf) format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: #282828;
 }
 
 a {
@@ -104,4 +113,105 @@ nav {
   
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
-  } 
+  }
+  
+  
+/* PARTE DO NIKOLAS TELA DE CADASTRO */
+
+.class-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.informativo {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 40px 0;
+}
+
+.informativo img {
+    max-width: 500px;
+    max-height: 560px;
+}
+
+.formulario {
+    display: flex;   
+    align-items: center;
+    min-width: 500px;
+    margin: 10px;
+    font-size: 4vh;
+    font-family: cream;
+    text-align: center;
+    color: white;
+}
+
+.formulario h1 {
+    font-weight: normal;
+}
+
+.campos input{
+    margin-bottom: 20px;
+    width: 80%;
+    height: 5vh;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+
+.formulario input::placeholder{
+    font-family: cream;
+    font-size: 3vh;
+    color: white;
+}
+
+.formulario input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.checkbox {
+   display: inline-flex;
+   font-size: 3vh;
+   
+}
+
+.checkbox label{
+    text-align: left;
+    font-family: cream;
+    margin-left: 5px;
+}
+
+.check {
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.botao button {
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #1f7499;
+    color: white;
+    font-family: cream;
+    font-size: 3vh;
+    transition: background-color 0.2s ease-in;
+
+    width: 40%;
+    height: 8vh;
+}
+
+.botao button:hover {
+    background-color: #2C9DCF;
+
+}
