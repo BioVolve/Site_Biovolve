@@ -231,20 +231,80 @@ nav {
     margin-top: -140vh;
     width: 100%;
     height: 120vh;
-    color: white;
     justify-content: center;
-
     display: flex;
 }
 
 .text{
     width: 80%;
-    font-size: 35px;
-    /*font-family:;*/
+    font-size: 3.5vh;
+    display: block;
+    margin-left: 5%;
+    color: white;
 }
 
-.text h1 {
+.conteudo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5vh;
+    text-align: justify;
+    margin-top: 10px;
 
 }
 
+.titulo {
+    margin-top: 30vh;
+    font-size: 7vh;
+    font-family: OCR;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.subtitulo1 {
+    margin-top: 90px;
+    font-size: 4.5vh;
+}
+
+.subtitulo2 {
+    margin-top: 90px;
+    font-size: 5.5vh;
+}
+
+#membros {
+    background: linear-gradient( to bottom, #37345B, #23213A );
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+}
+
+.container-membros{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.text-membros{
+    width: 100%;
+    font-size: 3.5vh;
+    display: block;
+    color: white;
+    margin-top: 5%;
+}
+
+.container-carrossel{
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrossel-membros{
+
+}
+
+.card-membros{
+    float: left;
+}
+/* fim da configuração da Sobre Nós */
 /*fim da configuração da Projetos*/
