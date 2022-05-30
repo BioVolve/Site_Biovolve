@@ -1,5 +1,5 @@
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
+var carrossel = new Carrossel(".container-carrossel", {
+    slidesPerView: 5,
     spaceBetween: 30,
     slidesPerGroup: 3,
     loop: true,
@@ -9,7 +9,7 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true
     },
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
+      nextEl: ".btn-next",
+      prevEl: ".btn-prev"
     }
   });
