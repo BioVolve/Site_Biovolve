@@ -47,6 +47,7 @@ nav {
     font-family: ocr;
     position: relative;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0), #23213acc, #23213A );
+    z-index: 15;
 }
 .nav-list {
     list-style: none;
@@ -293,25 +294,19 @@ nav {
 }
 
 .container-carrossel{
-    width: 100%;
+    width: 90%;
     height: 30vh;
+    padding: 3px;
     background-color: white;
     align-items: center;
     display: flex;
     border-radius: 50px;
     justify-content: center;
+    z-index: 10;
     
 }
 
-.carrossel-membros{
-    width: 90%;
-    height: 100px;
-    display: flex;
-}
-
 .card-membros{
-    width: 180px;
-    height: 180px;
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -323,12 +318,26 @@ nav {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    display: grid;
+}
+
+.bottomCard{
+    margin-top: -100px;
 }
 
 .imgCard{
     width: 100px;
     height: 100px;
     border-radius: 100%;
-}
+} 
+
 /* fim da configuração da Sobre Nós */
+
+/* começo da configuração da pagina projetos*/
+
+#projetos{
+    background-color: aliceblue;
+    width: 100%;
+    height: 60vh;
+}
 /*fim da configuração da Projetos*/
