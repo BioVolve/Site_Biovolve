@@ -5,6 +5,11 @@
     src: url(../fonts/OCR\ A\ Extended\ Regular.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: Jura;
+    src: url(../fonts/Jura-VariableFont_wght.ttf) format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -47,7 +52,7 @@ nav {
     font-family: ocr;
     position: relative;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0), #23213acc, #23213A );
-    z-index: 15;
+    z-index: 15
 }
 .nav-list {
     list-style: none;
@@ -175,6 +180,7 @@ nav {
     align-items: center;
     justify-content: center;
     background-color: #282828;
+    z-index: 1;
 }
 
 .banner{
@@ -207,7 +213,12 @@ nav {
 
 .degrade{
     width: 100%;
-    height: 2vh;
+    height: 20vh;
+    background-color: #23213a02;
+    margin-top:-80px;
+    position:relative;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #23213a,#23213A );
+
     
 }
 
@@ -226,12 +237,11 @@ nav {
     width: 100%;
     height: 140vh;
     object-fit: cover;
-    
 }
 
 .bg-sobre-img{
     width: 100%;
-    height: 140vh;
+    height: 100%;
 }
 
 .text-container {
@@ -277,10 +287,10 @@ nav {
 }
 
 #membros {
-    background: linear-gradient( to bottom, #37345B, #23213A );
+    background: linear-gradient( to bottom, #37345B, #36334e,#302e4b,#2a2944, #23213A,#000 );
     width: 100%;
     height: 60vh;
-    margin-top: 0;
+    margin-top: -80;
     display: grid;
     justify-content: center;
 }
@@ -328,7 +338,7 @@ nav {
 }
 
 .bottomCard{
-    margin-top: -100px;
+    margin-top: -30px;
 }
 
 .imgCard{
@@ -337,13 +347,186 @@ nav {
     border-radius: 100%;
 } 
 
+/* começo dos Valores */
+
+#valores{
+    width:100%;
+    height:120vh;
+
+}
+
+.bg-valores{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg-valores-img{
+    width: 100%;
+    height: 100%;
+}
+
+.container-valores{
+    width: 100%;
+    height: 120vh;
+    margin-top: -120vh;
+    display: flex;
+}
+.valores-geral{
+    width:33%;
+    justify-content: center;
+    align-items: center;
+    display:grid;
+}
+
+.titulo-valores{
+    width:100%;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Poppins', 'sans-serif';
+    color: #181728;
+    text-align: center;
+}
+
+.texto-valores{
+    width:90%;
+    font-weight: bold;
+    font-size: 25px;
+    color:#181728;
+    text-align: center;
+    margin-top: -120px;
+    margin-left: 10px;
+    
+}
+
+.icon-valores{
+    text-align: center;
+    margin-top: -120px;
+    position: relative;
+}
+
+.tela-branca{
+    width: 100%;
+    height:120vh;
+    background-color: rgba(255, 255, 255, 0.042);
+    margin-left: -99%;
+} 
+
+.degrade-preto{
+    width:100%;
+    height:8vh;
+    margin-top: -1px;
+    position: relative;
+    background-color: white;
+    background: linear-gradient(to top, #F1F9FB, #F1F9FB, rgba(0, 0, 0, 0.278));
+}
+
+/* fim dos Valores */
+
 /* fim da configuração da Sobre Nós */
 
 /* começo da configuração da pagina projetos*/
 
 #projetos{
-    background-color: aliceblue;
     width: 100%;
-    height: 60vh;
+    height: 120vh;
+    background-color: #F1F9FB;
+}
+
+.bg-projetos{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg-projetos-img{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-projetos{
+    margin-top: 38vh;
+    font-size: 7vh;
+    font-family: OCR;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.text-projetos{
+    width: 80%;
+    font-size: 3.5vh;
+    display: block;
+    margin-left: 5%;
+    color: black;
+}
+
+.conteudo-projetos{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5vh;
+    text-align: justify;
+    margin-top: 50px;
+}
+.card-container{
+    width:50vw;
+    height:40vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35vh;
+    margin-left: 10vw;
+    position: relative;
+    display: flex;
+    border-radius: 30px;
+    border: 6px solid #54B99F;
+
+}
+.card-projetos{
+    width: 90%;
+    height:80%;
+    background: linear-gradient(to bottom, #A8E063, #56AB2F);
+    display: flex;
+    border-radius: 20px;
+}
+
+.card-body{
+    margin-left: 10vw;
+    margin-top: 10vh;
+    font-family: 'Jura';
+    color: #1C6119;
+}
+
+.card-title{
+    font-size: 60px;
+    margin-left: -8vw;
+    margin-top: -8vh;
+}
+
+.card-text{
+    font-size: 25px;
+    margin-left: -8vw;
+}
+
+.btn-saiba-projeto{
+    width: 160px;
+    height: 40px;
+    background-color: #4DAD49;
+    color:#1C6119;
+    border: 2px solid #1C6119;
+    border-radius:10px;
+    margin-left: -8vw;
+    margin-top:25px;
+}
+
+.card-logo{
+    width:12vw;
+    height:25vh;
+    margin-top: 4%;
+    margin-left: 5%;
+    object-fit: cover;
+}
+
+.logo-app1{
+    width: 100%;
+    height: 100%;
 }
 /*fim da configuração da Projetos*/
