@@ -23,7 +23,7 @@
                     <li id="link-home"><a href="#home"> Home </a></li>
                     <li id="link-sobre"><a href="#sobre"> Sobre Nós </a></li>
                     <li id="link-projetos"><a href="#projetos"> Projetos </a></li>
-                    <li id="link-doar"><a href="#doar"> Doar</a></li>
+                    <li id="link-doar"><a href="#info"> Informações</a></li>
                 </ul>
             </nav>
         </header>
@@ -175,8 +175,8 @@
                 <div class="tela-branca"></div>
             </div>
         </section>
-        <div class="degrade-preto"></div>       
         <section id="projetos">
+        <div class="degrade-preto"></div>       
             <div class="bg-projetos">
                 <img src="img/Tela 5 - Projetos.png" class="bg-projetos-img">
             </div>
@@ -191,27 +191,71 @@
                 </div>
             </div> 
             <div class="card-container">
-                <div class="card-projetos">
+                <div class=" card-projetos">
                     <div class="card-logo">
                       <img src="img/LeafTi - logo 1.png" class="logo-app1">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">LeafTi</h5>
                         <p class="card-text">Cuide, Plante e Refloreste</p>
-                        <button type="button" href="index.html" class="btn-saiba-projeto"> Saiba mais</button> 
+                        <a href="index.html"><button type="submit" class="btn-saiba-projeto"> Saiba mais</button></a> 
                     </div>
-                </div>   
-            </div>   
+                </div>
+            </div>
+            <!-- <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div> -->
         </section>
-        <section id="doar">
-            Doar
+        <section id="info">
+            <div class="bg-info">
+                <img src="img/Tela 6 - Doar.png" class="bg-valores-img">
+            </div>
+            <div class="form-content">
+                <form method="post" action="#">
+                    <section id="campos">
+                        <div class="titulo-form">Deseja receber atualizações sobre futuros projetos?</div>
+                        <input type="text" class="campo-form" placeholder="Nome">
+                        <input type="email" class="campo-form" placeholder="E-mail">
+                    </section>
+                    <section id="box">
+                        <label class="form-control">
+                            <input class="checkbox-info" type="checkbox" name="checkbox" />
+                            <label class="check" for="checkbox-info"> Concordo com os termos
+                                 de políticas de privacidade </label>    
+                        </label>
+                    </section>
+                    <section id="botoes">
+                        <button type="submit" class="btn-enviar-info">Enviar</button>
+                    </section>
+                </form>
+            </div>
         </section>
+        <div class="footer">
+        </div>
         <script src="js/mobile-nav.js"></script>
         <script src="js/slider.js"></script>
         <script   script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script>
             var swiper = new Swiper(".mySwiper", {
-                slidesPerView: 5,
+                slidesPerView: 3,
                 spaceBetween: 30,
                 slidesPerGroup: 1,
                 loop: true,
