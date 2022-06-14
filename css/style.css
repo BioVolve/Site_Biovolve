@@ -653,8 +653,66 @@ input[type="checkbox"]:checked::before {
 }
 /* fim da tela informações */
 
-.footer{
-    background-color: #54B99F;
-    width:100%;
-    height: 15vh;
+footer {
+    display: inline;
+    position: relative;
+    width: 100%;
+}
+ 
+.rodape {
+    height: 120px;  
+    padding:10px 0;
+    background-color:#54B99F;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+  
+.rodape ul {
+    padding: 0 10px;
+    list-style:none;
+    text-align:center;
+    line-height:1.6;
+    margin-bottom:0;
+}
+  
+.rodape li {
+    padding:0 6px;
+    display: inline;
+    font-size: 3vh;
+}
+  
+.rodape ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+  
+.rodape ul a:hover {
+    opacity:1;
+}
+  
+.rodape .social {
+    text-align:center;
+}
+  
+.rodape .social > a {
+    font-size: 4.5vh;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    margin:0 12px;
+    color:inherit;
+    opacity:0.75;
+}
+  
+.rodape .social > a:hover {
+    opacity:0.9;
+}
+  
+.rodape .copyright {
+    margin-top: 5px;
+    text-align:center;
+    font-size: 14px;
+    color:rgb(0, 0, 0);
+    
 }
