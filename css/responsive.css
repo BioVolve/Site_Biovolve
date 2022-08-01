@@ -1,4 +1,4 @@
-@media (max-width: 500px){
+@media (max-width: 375px){
     /* HOME  */
 
     .banner-img{
@@ -39,17 +39,22 @@
     }
 
     .bg-sobre img{
-        margin-top: 70px;
+        margin-top: 90px;
+        height: 140vh;
     }
 
     .text-container{
         height: 90vh;
-        margin-top: -145vh;
+        margin-top: -144.5vh;
         margin-left: -10px;
     }
 
+    .titulo{
+        font-size: 6vh
+    }
+
     .conteudo{
-        font-size: 2.5vh;
+        font-size: 2vh;
         margin-left: 20px;
     }
 
@@ -91,12 +96,13 @@
     /* MISSÃO, VALORES E VISÃO */
 
     #valores{
-        height: 140vh;
+        height: 160vh;
     }
 
     .valores-geral{
         width:100%;
         height: 46.5vh;
+        margin-top: 5vh;
         justify-content: center;
         align-items: center;
         display:flex;
@@ -109,80 +115,80 @@
     }
 
     .titulo-visao{
-        font-size: 7vh;
+        font-size: 5vh;
         position: relative;
-        left: 32vw;
-        bottom:10vh;
+        left: 35vw;
+        bottom:15vh;
     }
 
     .titulo-missao{
-        font-size: 7vh;
+        font-size: 5vh;
         position: relative;
-        right: 15vw;
+        right: 10vw;
         bottom: 15vh;
     }
 
     .titulo-valores{
-        font-size: 7vh;
+        font-size: 5vh;
         position: relative;
-        right: 15vw;
+        right: 7vw;
         bottom: 15vh;
     }
 
     .texto-visao{
-        width: 100vw;
+        width: 85vw;
         height: 40vh;
         font-weight: bold;
-        font-size: 3.3vh;
+        font-size: 2.6vh;
         color:#181728;
         text-align: center;
         position: relative;
-        top: 14vh; 
-        right: 125vw;
+        top: 10vh; 
+        right: 110vw;
     }
     
     .texto-missao{
         width: 65vw;
         height: 60vh;
         font-weight: bold;
-        font-size: 3.2vh;
+        font-size: 2.6vh;
         color:#181728;
         text-align: center;
         position: relative;
         top: 20vh;
-        right: 80vw;
+        right: 65vw;
     }
 
     .texto-valores{
-        width: 40vw;
-        height: 40vh;
+        width: 38vw;
+        height: 50vh;
         font-weight: bold;
-        font-size: 3.2vh;
+        font-size: 2.8vh;
         color:#181728;
         text-align: center;
         position: relative;
-        right: 82vw;
-        top: 10vh;
+        right: 65vw;
+        top: 15vh;
     }
 
     .icon-missao{
         text-align: center;
         position: relative;
         top: 18vh;
-        right: 82vw;
+        right: 65vw;
     }
     
     .icon-visao{
         text-align: center;
         position: relative;
-        top: 25vh;
-        right:32vw;
+        top: 15vh;
+        right:25vw;
     }
     
     .icon-valores{
         text-align: center;
         position: relative;
-        right: 82vw;
+        right: 65vw;
         top: 20vh;
     }
     
@@ -213,6 +219,10 @@
         margin-left: 20px;
     }
 
+    .titulo-projetos{
+        font-size: 6vh;
+    }
+
     .text-container-projetos{
         margin-top: -144vh;
         margin-left: -5vw;
@@ -240,23 +250,23 @@
     .card-title{
         font-size: 25px;
         margin-top: 10vh;
-        margin-left: -40vw;
+        margin-left: -38vw;
     }
 
     .card-text{
-        font-size: 10px;
-        margin-left: -47vw;
+        font-size: 15px;
+        margin-left: -42vw;
     }
 
     .card-logo{
         width: 35vw;
         height: 16vh;
         margin-top: 10px;
-        margin-left: 15vw;
+        margin-left: 12vw;
     }
 
     .logo-app1{
-        width: 30vw;
+        width: 35vw;
         height: 17vh;
     }
 
@@ -265,7 +275,7 @@
         height: 5vh;
         margin-top: 5px;
         font-size: 10px;
-        margin-left: -41vw;
+        margin-left: -40vw;
         border-radius: 8px;
     }
 
@@ -318,12 +328,13 @@
     }
 
     .titulo-doar{
-        margin-top: 12vh;
+        margin-top: 17vh;
         margin-left: 5px;
+        font-size: 6vh;
     }
 
     .conteudo-doar{
-        font-size: 3vh;
+        font-size: 2.5vh;
     }
 
     .card-grid{

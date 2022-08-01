@@ -30,10 +30,10 @@
 
 #rodape {
     width: 100%;
-    height: 50vh;  
+    height: 51vh;  
     padding:10px 0;
     background-color: #F1F9FB;
-    color: rgb(0, 0, 0);
+    color:#23213A;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -69,7 +69,7 @@
 
 .rodape-list li a{
     margin-right: 20vw;
-    color: black;
+    color:#23213A;
 }
 
 .box-icons{
@@ -112,7 +112,7 @@
     .link-rodape1{
         width: 40vw;
         margin-top: 15vh;
-        margin-left: -57vw;
+        margin-left: -65vw;
         color:#23213A;
     }
 
