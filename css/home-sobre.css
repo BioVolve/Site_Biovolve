@@ -239,7 +239,7 @@
 }
 
 .texto-missao{
-    width: 80%;
+    width: 90%;
     font-weight: bold;
     font-size: 3vh;
     color:#181728;
@@ -249,17 +249,17 @@
 }
 
 .texto-visao{
-    width: 80%;
+    width: 90%;
     font-weight: bold;
     font-size: 3vh;
     color:#181728;
     text-align: center;
     margin-top: -20vh;
-    margin-left: 4vw;
+    margin-left: 3vw;
 }
 
 .texto-valores{
-    width: 80%;
+    width: 90%;
     font-weight: bold;
     font-size: 3vh;
     color:#181728;
