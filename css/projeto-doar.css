@@ -1,0 +1,403 @@
+/* começo da configuração da pagina projetos*/
+
+#projetos{
+    width: 100%;
+    height: 120vh;
+    background-color: #F1F9FB;
+}
+
+.bg-projetos{
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+}
+
+.bg-projetos-img{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-projetos{
+    margin-top: 38vh;
+    font-size: 7vh;
+    font-family: OCR;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.text-container-projetos{
+    margin-top: -140vh;
+    width: 100%;
+    height: 65vh;
+    justify-content: center;
+    display: flex;
+}
+
+.text-projetos{
+    width: 80%;
+    font-size: 3.5vh;
+    display: block;
+    margin-left: 5%;
+    color: black;
+}
+
+.conteudo-projetos{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5vh;
+    text-align: justify;
+    margin-top: 50px;
+}
+.card-container{
+    width:50vw;
+    height:40vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    position: relative;
+    display: flex;
+    border-radius: 30px;
+    border: 6px solid #54B99F;
+
+}
+.card-projetos{
+    width: 90%;
+    height:80%;
+    background: linear-gradient(to bottom, #A8E063, #56AB2F);
+    display: flex;
+    border-radius: 20px;
+}
+
+.card-body{
+    margin-left: 10vw;
+    margin-top: 10vh;
+    font-family: 'Jura';
+    color: #1C6119;
+}
+
+.card-title{
+    font-size: 60px;
+    margin-left: -8vw;
+    margin-top: -40px;
+}
+
+.card-text{
+    font-size: 25px;
+    margin-left: -8vw;
+}
+
+.btn-saiba-projeto{
+    width: 10vw;
+    height: 5vh;
+    background-color: #4DAD49;
+    color:#1C6119;
+    border: 2px solid #1C6119;
+    border-radius:10px;
+    margin-left: -8vw;
+    margin-top:25px;
+}
+
+.btn-saiba-projeto:hover{
+    background-color: #5dae5a;
+    cursor:pointer;
+}
+
+.card-logo{
+    width:12vw;
+    height:25vh;
+    margin-top:5%;
+    margin-left: 5%;
+    object-fit: cover;
+}
+
+.logo-app1{
+    width: 100%;
+    height: 100%;
+}
+
+/*fim da configuração da Projetos*/
+
+/* começo da configuração da tela Informações */
+
+#info{
+    width: 100%;
+    height: 140vh;
+    background-color: #F1F9FB;
+    display: flex;
+}
+
+.bg-info{
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+}
+
+.form-content{
+    width: 45vw;
+    height: 75vh;
+    background-color: #54b9a03e;
+    margin-left: -86%;
+    margin-top:10%;
+    border-radius: 30px;
+    display: grid;
+}
+
+.campo-form{
+    width:60%;
+    height:6vh;
+    border-radius: 15px;
+    background-color: rgba(241, 249, 251, 0.8);
+    border: rgba(241, 249, 251, 0.8); 
+    margin-left: 15%;
+    margin-top: 12%;
+    color:#3dcba7;
+    padding-left: 10px;
+}
+
+.campo-form::placeholder{
+    color: #54B99F;
+    font-family: 'Poppins' , 'sans-serif';
+    padding-left: 5%;
+}
+input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: var(--form-background);
+    /* Not removed via appearance */
+    font: inherit;
+    color: #54B99F;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid #54B99F;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    display:flex;
+    margin-top:8%;
+    margin-left:15%;
+    
+    place-content: center;
+}  
+  
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background-color: CanvasText;
+}
+  
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+  
+.check{
+    color: #54B99F;
+    margin-top:7.5%;
+    margin-left: 1%;
+}
+
+.form-control{
+    display:flex;
+}
+
+.btn-enviar-info{
+    width: 9vw;
+    height: 6vh;
+    margin-top: 3%;
+    margin-left: 75%;
+    background: #54B99F;
+    border: #54B99F;
+    border-radius: 10px; 
+    color:#F1F9FB;   
+}
+
+.btn-enviar-info:hover{
+    background-color: #3dcba7;
+    cursor:pointer;
+}
+.titulo-form{
+    text-align:center;
+    font-size: 30px;
+    color: #54B99F;
+    font-weight: bold;
+    margin-top: 5%;
+}
+/* fim da tela informações */
+
+/* tela de doação */
+
+#doar{
+    width: 100%;
+    height: 200vh;
+    background-color: #F1F9FB;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-doar{
+    width: 100%;
+    height: 200vh;
+    object-fit: cover;
+    position: relative;
+}
+
+.bg-doar img{
+    width: 100%;
+    height: 205vh;
+}
+.titulo-doar{
+    margin-top: 10vh;
+    font-size: 7vh;
+    font-family: OCR;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+}
+
+.text-doar{
+    width: 80%;
+    font-size: 3.5vh;
+    display: block;
+    margin-top: -30vh;
+    margin-left: 5%;
+    color: white;
+    position:absolute;
+}
+
+.conteudo-doar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5vh;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.card-grid{
+    width:100%;
+    display: flex;
+    height: 50vh;
+    margin-top: -12vh;
+    position: absolute;
+}
+
+.card-doar{
+    width: 18vw;
+    height: 30vh;
+    margin-left: 12%;
+    background-color:#F1F9FB;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px 6px rgba(17, 17, 17, 0.579);
+}
+
+.banner-card{
+    width: 100%;
+    height: 9vh;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.terraluminous{
+    width: 12vw;
+    height: 12vh;
+}
+
+.greenpeace{
+    width: 14vw;
+    height: 6vh;
+    margin-top: 5%;
+}
+
+.imaflora{
+    width:14vw;
+    height:8vh;
+    margin-top: 5%;
+}
+
+.ipe{
+    width: 6vw;
+    height: 6vh;
+    margin-top: 5%;
+}
+
+.psa{
+    width: 12vw;
+    height: 4vh;
+    margin-top: 10%;
+}
+
+.sos{
+    width: 6vw;
+    height: 10vh;
+    margin-top: 5%;
+}
+
+.mid-card{
+    width: 100%;
+    height: 6vh;
+}
+
+.vermais:hover{
+    cursor: pointer;
+}
+
+.footer-card{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnDoar{
+    width: 9vw;
+    height: 6vh;
+    background: #54B99F;
+    border: #54B99F;
+    border-radius: 40px; 
+    color:#F1F9FB; 
+    font-weight: bold;
+    text-transform:uppercase ;
+}
+
+.btnDoar:hover{
+    cursor: pointer;
+    background-color: #3dcba7;
+}
+
+/* fim doar */
+
+#doar2{
+    width: 100%;
+    height: 80vh;
+
+    background-color: #F1F9FB;
+    overflow: hidden;
+}
+
+.bg-doar2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.bg-doar2 img{
+    width:100%;
+    height: 100%;
+}
+
+.card-grid2{
+    width:100%;
+    display: flex;
+    margin-top: -70vh;
+    height: 30vh;
+    position: absolute;
+}

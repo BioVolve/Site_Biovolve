@@ -1,0 +1,397 @@
+@media (max-width: 500px){
+    /* HOME  */
+
+    .banner-img{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+    .imagem-titulo{
+        width: 100%;
+        height: 90vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .imagem-titulo img{
+        width: 90%;
+        height: 40vh;
+        overflow-x: hidden ;
+    }
+
+    .degrade{
+        height: 30vh;
+    }
+
+
+    /* SOBRE */
+
+    #sobre{
+        height: 152vh;
+    }
+
+    .bg-sobre {
+        width: 100%;
+        height: 140vh;
+        object-fit: cover;
+    }
+
+    .bg-sobre img{
+        margin-top: 70px;
+    }
+
+    .text-container{
+        height: 90vh;
+        margin-top: -145vh;
+        margin-left: -10px;
+    }
+
+    .conteudo{
+        font-size: 2.5vh;
+        margin-left: 20px;
+    }
+
+    .subtitulo1 {
+        margin-top: 40px;
+        font-size: 4vh;
+        margin-left: 20px;
+    }
+
+    .subtitulo2{
+        margin-top: 40px;
+        font-size: 4vh;
+        margin-left: 20px;
+    }
+
+    .container-carrossel{
+        height: 25vh;
+    }
+
+    .bottomCard{
+        font-size: 12px;
+    }
+
+    .imgCard{
+        width: 60px;
+        height: 60px;
+    }
+
+    .swiper-button-next{
+        width: 60px;
+        height: 50px;
+    }
+
+    .swiper-button-prev{
+        width: 60px;
+        height: 50px;
+    }
+    
+    /* MISSÃO, VALORES E VISÃO */
+
+    #valores{
+        height: 140vh;
+    }
+
+    .valores-geral{
+        width:100%;
+        height: 46.5vh;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+    }
+
+    .container-valores{
+        width: 100%;
+        height: 120vh;
+        display: grid;
+    }
+
+    .titulo-visao{
+        font-size: 7vh;
+        position: relative;
+        left: 32vw;
+        bottom:10vh;
+    }
+
+    .titulo-missao{
+        font-size: 7vh;
+        position: relative;
+        right: 15vw;
+        bottom: 15vh;
+    }
+
+    .titulo-valores{
+        font-size: 7vh;
+        position: relative;
+        right: 15vw;
+        bottom: 15vh;
+    }
+
+    .texto-visao{
+        width: 100vw;
+        height: 40vh;
+        font-weight: bold;
+        font-size: 3.3vh;
+        color:#181728;
+        text-align: center;
+        position: relative;
+        top: 14vh; 
+        right: 125vw;
+    }
+    
+    .texto-missao{
+        width: 65vw;
+        height: 60vh;
+        font-weight: bold;
+        font-size: 3.2vh;
+        color:#181728;
+        text-align: center;
+        position: relative;
+        top: 20vh;
+        right: 80vw;
+    }
+
+    .texto-valores{
+        width: 40vw;
+        height: 40vh;
+        font-weight: bold;
+        font-size: 3.2vh;
+        color:#181728;
+        text-align: center;
+        position: relative;
+        right: 82vw;
+        top: 10vh;
+    }
+
+    .icon-missao{
+        text-align: center;
+        position: relative;
+        top: 18vh;
+        right: 82vw;
+    }
+    
+    .icon-visao{
+        text-align: center;
+        position: relative;
+        top: 25vh;
+        right:32vw;
+    }
+    
+    .icon-valores{
+        text-align: center;
+        position: relative;
+        right: 82vw;
+        top: 20vh;
+    }
+    
+    .icon-missao img{
+        width: 100px;
+        height: 80px;
+    }
+    
+    .icon-visao img{
+        width: 110px;
+        height: 70px;
+    }
+    
+    .icon-valores img{
+        width:130px;
+        height:110px;
+    }
+    /* PROJETOS */
+
+    .bg-projetos-img{
+        margin-top: 10%;
+    }
+
+
+    .conteudo-projetos{
+        margin-top: 20px;
+        font-size: 2.5vh;
+        margin-left: 20px;
+    }
+
+    .text-container-projetos{
+        margin-top: -144vh;
+        margin-left: -5vw;
+        width: 100%;
+        height: 65vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    .card-container{
+        width: 65vw;
+        height: 50vh;
+        margin-top: 20vh;
+        margin-left: 15%;
+    }
+
+    .card-projetos{
+        height: 90%;
+    }
+
+    .card-body{
+        display: grid;
+    }
+
+    .card-title{
+        font-size: 25px;
+        margin-top: 10vh;
+        margin-left: -40vw;
+    }
+
+    .card-text{
+        font-size: 10px;
+        margin-left: -47vw;
+    }
+
+    .card-logo{
+        width: 35vw;
+        height: 16vh;
+        margin-top: 10px;
+        margin-left: 15vw;
+    }
+
+    .logo-app1{
+        width: 30vw;
+        height: 17vh;
+    }
+
+    .btn-saiba-projeto{
+        width: 25vw;
+        height: 5vh;
+        margin-top: 5px;
+        font-size: 10px;
+        margin-left: -41vw;
+        border-radius: 8px;
+    }
+
+    /* INFO */
+
+    .form-content{
+        margin-left: -88.5%;
+        width: 78vw;
+        height: 60vh;
+        margin-top: 100px;
+    }
+
+    .titulo-form{
+        width:100%;
+        font-size: 12px;
+    }
+
+    .campo-form{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .form-control{
+        font-size: 10px;
+        margin-left: -25px;
+    }
+
+    input.checkbox-info{
+        margin-top: 23px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .btn-enviar-info{
+        width: 30vw;
+        height: 6.5vh;
+        margin-left: 55%;
+    }
+
+    /* DOAR */
+
+    #doar{
+        height: 300vh;
+        justify-content: center;
+    }
+
+    .bg-doar img{
+        margin-top: 10vh;
+        height: 300vh;
+    }
+
+    .titulo-doar{
+        margin-top: 12vh;
+        margin-left: 5px;
+    }
+
+    .conteudo-doar{
+        font-size: 3vh;
+    }
+
+    .card-grid{
+        margin-top: 10vh;
+        display: grid
+    }
+
+    .card-grid2{
+        margin-top: -130vh;
+        display: grid
+    }
+
+    .card-doar{
+        width: 50vw;
+        height: 28vh;
+        margin-top: -30vh;
+        margin-left: 25vw;
+        margin-bottom: 63vh;
+    }
+
+    .btnDoar{
+        width: 30vw;
+        margin-top: -50px;
+        font-size: 10px
+    }
+
+    .terraluminous{
+        width: 32vw;
+        height: 12vh;
+    }
+    
+    .greenpeace{
+        width: 35vw;
+        height: 8vh;
+        margin-top: 5%;
+    }
+    
+    .imaflora{
+        width:35vw;
+        height:10vh;
+        margin-top: 5%;
+    }
+    
+    .ipe{
+        width: 30vw;
+        height: 12vh;
+        margin-top: 5%;
+    }
+    
+    .psa{
+        width: 38vw;
+        height: 6vh;
+        margin-top: 10%;
+    }
+    
+    .sos{
+        width: 24vw;
+        height: 12vh;
+        margin-top: 0;
+    }
+
+    #doar2{
+        height: 180vh;
+    }
+
+    .bg-doar2 img{
+        height: 180vh;
+    }
+
+
+}
