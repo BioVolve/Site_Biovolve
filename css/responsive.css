@@ -131,8 +131,8 @@
     .titulo-valores{
         font-size: 5vh;
         position: relative;
-        right: 7vw;
-        bottom: 15vh;
+        right: 8vw;
+        bottom: 10vh;
     }
 
     .texto-visao{
@@ -156,18 +156,18 @@
         text-align: center;
         position: relative;
         top: 20vh;
-        right: 65vw;
+        right: 60vw;
     }
 
     .texto-valores{
-        width: 38vw;
-        height: 50vh;
+        width: 45vw;
+        height: 40vh;
         font-weight: bold;
-        font-size: 2.8vh;
+        font-size: 2.4vh;
         color:#181728;
         text-align: center;
         position: relative;
-        right: 65vw;
+        right: 62vw;
         top: 15vh;
     }
 
@@ -182,14 +182,14 @@
         text-align: center;
         position: relative;
         top: 15vh;
-        right:25vw;
+        right:22.5vw;
     }
     
     .icon-valores{
         text-align: center;
         position: relative;
-        right: 65vw;
-        top: 20vh;
+        right: 64vw;
+        top: 15vh;
     }
     
     .icon-missao img{
