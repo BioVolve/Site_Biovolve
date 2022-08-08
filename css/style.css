@@ -6,6 +6,11 @@
 }
 
 @font-face {
+    font-family: Agency FB;
+    src: url(../fonts/agency_fb.ttf) format('truetype');
+}
+
+@font-face {
     font-family: Jura;
     src: url(../fonts/Jura-VariableFont_wght.ttf) format('truetype');
 }
@@ -14,7 +19,6 @@
     margin: 0;
     padding: 0;
 }
-
 .banner-espaco{
     height: 3vh;
     margin-top: -6%;
@@ -105,14 +109,14 @@
 
     .box-principal{
         height: 65vh;
-        font-size: 2.6vh;
+        font-size: 2vh;
         color: #23213A;
     }
 
     .link-rodape1{
         width: 40vw;
         margin-top: 15vh;
-        margin-left: -65vw;
+        margin-left: -68vw;
         color:#23213A;
     }
 
@@ -124,18 +128,19 @@
     }
 
     .box-icons{
-        margin-left: 10px;
-        font-size: 20px;
+        margin-left: 26.5%;
+        font-size: 6vh;
     }
     
     .copyright{
         margin-top: 2vh;
-        font-size: 15px;
+        font-size: 2vh;
+        margin-left: -2.5%;
     }
 
     .social i{
         color: #23213A;
-        font-size: 20px;
+        font-size: 25px;
         padding-right: 2vw;
     }
     

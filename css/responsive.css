@@ -40,7 +40,7 @@
 
     .bg-sobre img{
         margin-top: 90px;
-        height: 140vh;
+        height: 142vh;
     }
 
     .text-container{
@@ -49,8 +49,12 @@
         margin-left: -10px;
     }
 
+    .text{
+        margin-top: -10px;
+    }
+
     .titulo{
-        font-size: 6vh
+        font-size: 6vh;
     }
 
     .conteudo{
@@ -96,7 +100,7 @@
     /* MISSÃO, VALORES E VISÃO */
 
     #valores{
-        height: 160vh;
+        height: 150vh;
     }
 
     .valores-geral{
@@ -115,23 +119,23 @@
     }
 
     .titulo-visao{
-        font-size: 5vh;
+        font-size: 4vh;
         position: relative;
         left: 35vw;
         bottom:15vh;
     }
 
     .titulo-missao{
-        font-size: 5vh;
+        font-size: 4vh;
         position: relative;
         right: 10vw;
         bottom: 15vh;
     }
 
     .titulo-valores{
-        font-size: 5vh;
+        font-size: 4vh;
         position: relative;
-        right: 8vw;
+        right: 6vw;
         bottom: 10vh;
     }
 
@@ -139,7 +143,7 @@
         width: 85vw;
         height: 40vh;
         font-weight: bold;
-        font-size: 2.6vh;
+        font-size: 2.2vh;
         color:#181728;
         text-align: center;
         position: relative;
@@ -148,48 +152,48 @@
     }
     
     .texto-missao{
-        width: 65vw;
+        width: 50vw;
         height: 60vh;
         font-weight: bold;
-        font-size: 2.6vh;
+        font-size: 2.2vh;
         color:#181728;
         text-align: center;
         position: relative;
-        top: 20vh;
-        right: 60vw;
+        top: 21vh;
+        right: 64vw;
     }
 
     .texto-valores{
-        width: 45vw;
+        width: 55vw;
         height: 40vh;
         font-weight: bold;
-        font-size: 2.4vh;
+        font-size: 2.2vh;
         color:#181728;
         text-align: center;
         position: relative;
-        right: 62vw;
-        top: 15vh;
+        right: 60vw;
+        top: 16vh;
     }
 
     .icon-missao{
         text-align: center;
         position: relative;
-        top: 18vh;
-        right: 65vw;
+        top: 14vh;
+        right: 66vw;
     }
     
     .icon-visao{
         text-align: center;
         position: relative;
         top: 15vh;
-        right:22.5vw;
+        right:25vw;
     }
     
     .icon-valores{
         text-align: center;
         position: relative;
-        right: 64vw;
-        top: 15vh;
+        right: 60vw;
+        top: 12vh;
     }
     
     .icon-missao img{
@@ -203,8 +207,8 @@
     }
     
     .icon-valores img{
-        width:130px;
-        height:110px;
+        width:110px;
+        height:90px;
     }
     /* PROJETOS */
 
@@ -215,7 +219,7 @@
 
     .conteudo-projetos{
         margin-top: 20px;
-        font-size: 2.5vh;
+        font-size: 2.2vh;
         margin-left: 20px;
     }
 
@@ -224,7 +228,7 @@
     }
 
     .text-container-projetos{
-        margin-top: -144vh;
+        margin-top: -144.5vh;
         margin-left: -5vw;
         width: 100%;
         height: 65vh;
@@ -250,23 +254,23 @@
     .card-title{
         font-size: 25px;
         margin-top: 10vh;
-        margin-left: -38vw;
+        margin-left: -34vw;
     }
 
     .card-text{
         font-size: 15px;
-        margin-left: -42vw;
+        margin-left: -39vw;
     }
 
     .card-logo{
         width: 35vw;
         height: 16vh;
         margin-top: 10px;
-        margin-left: 12vw;
+        margin-left: 8vw;
     }
 
     .logo-app1{
-        width: 35vw;
+        width: 42vw;
         height: 17vh;
     }
 
@@ -275,16 +279,20 @@
         height: 5vh;
         margin-top: 5px;
         font-size: 10px;
-        margin-left: -40vw;
+        margin-left: -36vw;
         border-radius: 8px;
     }
 
     /* INFO */
 
+    #info{
+        height: 60vh;
+    }
+
     .form-content{
         margin-left: -88.5%;
         width: 78vw;
-        height: 60vh;
+        height: 40vh;
         margin-top: 100px;
     }
 

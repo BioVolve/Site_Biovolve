@@ -20,9 +20,8 @@
 .titulo-projetos{
     margin-top: 38vh;
     font-size: 7vh;
-    font-family: OCR;
+    font-family: Agency FB;
     font-weight: normal;
-    text-transform: uppercase;
 }
 
 .text-container-projetos{
@@ -257,9 +256,8 @@ input[type="checkbox"]:checked::before {
 .titulo-doar{
     margin-top: 10vh;
     font-size: 7vh;
-    font-family: OCR;
+    font-family: Agency FB;
     font-weight: normal;
-    text-transform: uppercase;
     color: white;
 }
 
