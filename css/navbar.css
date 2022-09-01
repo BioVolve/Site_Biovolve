@@ -80,8 +80,9 @@ nav {
 
     .navbar{
         background: #23213A;   
-        height:16vh;
+        height:13vh;
         overflow: hidden;
+        margin: 0;
        
     }
     .nav-list {

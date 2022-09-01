@@ -1,4 +1,179 @@
-@media (min-width: 200px){
-    /* SOBRE */
+@media (min-width: 300px){
+    /* VALORES */
+    #valores{
+        height: 150vh;
+    }
+
+    .valores-geral{
+        width:100%;
+        height: 46.5vh;
+        margin-top: 5vh;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+    }
+
+    .container-valores{
+        width: 100%;
+        height: 120vh;
+        display: grid;
+    }
+
+    .titulo-visao{
+        font-size: 4vh;
+        position: relative;
+        left: 35vw;
+        bottom:15vh;
+    }
+
+    .titulo-missao{
+        font-size: 4vh;
+        position: relative;
+        right: 10vw;
+        bottom: 15vh;
+    }
+
+    .titulo-valores{
+        font-size: 4vh;
+        position: relative;
+        right: 6vw;
+        bottom: 10vh;
+    }
+
+    .texto-visao{
+        width: 85vw;
+        height: 40vh;
+        font-weight: bold;
+        font-size: 2.2vh;
+        color:#181728;
+        text-align: center;
+        position: relative;
+        top: 13vh; 
+        right: 99vw;
+    }
     
+    .texto-missao{
+        width: 50vw;
+        height: 60vh;
+        font-weight: bold;
+        font-size: 2.2vh;
+        color:#181728;
+        text-align: center;
+        position: relative;
+        top: 21vh;
+        right: 60vw;
+    }
+
+    .texto-valores{
+        width: 55vw;
+        height: 40vh;
+        font-weight: bold;
+        font-size: 2.2vh;
+        color:#181728;
+        text-align: center;
+        position: relative;
+        right: 57vw;
+        top: 16vh;
+    }
+
+    .icon-missao{
+        text-align: center;
+        position: relative;
+        top: 14vh;
+        right: 66vw;
+    }
+    
+    .icon-visao{
+        text-align: center;
+        position: relative;
+        top: 15vh;
+        right:20vw;
+    }
+    
+    .icon-valores{
+        text-align: center;
+        position: relative;
+        right: 60vw;
+        top: 12vh;
+    }
+    
+    .icon-missao img{
+        width: 100px;
+        height: 80px;
+    }
+    
+    .icon-visao img{
+        width: 110px;
+        height: 70px;
+    }
+    
+    .icon-valores img{
+        width:110px;
+        height:90px;
+    }
+
+    /* PROJETOS */
+
+    .bg-projetos-img{
+        margin-top: 10%;
+    }
+
+
+    .conteudo-projetos{
+        margin-top: 20px;
+        font-size: 2.2vh;
+        margin-left: 20px;
+    }
+
+    .titulo-projetos{
+        font-size: 6vh;
+    }
+
+    .text-container-projetos{
+        margin-top: -144.5vh;
+        margin-left: -5vw;
+        width: 100%;
+        height: 65vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    .card-logo{
+        width: 36vw;
+        height: 16vh;
+        margin-top: 10px;
+        margin-left: 14vw;
+    }
+
+    .logo-app1{
+        width: 31vw;
+        height: 15vh;
+    }
+
+    .card-title{
+        font-size: 25px;
+        margin-top: 10vh;
+        margin-left: -35vw;
+    }
+
+    .card-text{
+        font-size: 20px;
+        margin-left: -42vw;
+
+    }
+
+    .btn-saiba-projeto{
+        width: 25vw;
+        height: 5vh;
+        margin-top: 5px;
+        font-size: 10px;
+        margin-left: -37.5vw;
+        border-radius: 8px;
+    }
+
+    /* INFO */
+
+    .form-content{
+        height: 45vh;
+    }
 }
