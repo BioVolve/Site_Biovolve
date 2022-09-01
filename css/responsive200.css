@@ -1,7 +1,7 @@
 @media (min-width: 300px){
     /* VALORES */
     #valores{
-        height: 150vh;
+        height: 120vh;
     }
 
     .valores-geral{
@@ -23,7 +23,7 @@
         font-size: 4vh;
         position: relative;
         left: 35vw;
-        bottom:15vh;
+        bottom:27vh;
     }
 
     .titulo-missao{
@@ -37,7 +37,7 @@
         font-size: 4vh;
         position: relative;
         right: 6vw;
-        bottom: 10vh;
+        bottom: 46vh;
     }
 
     .texto-visao{
@@ -48,7 +48,7 @@
         color:#181728;
         text-align: center;
         position: relative;
-        top: 13vh; 
+        top: 0vh; 
         right: 99vw;
     }
     
@@ -72,8 +72,8 @@
         color:#181728;
         text-align: center;
         position: relative;
-        right: 57vw;
-        top: 16vh;
+        right: 55vw;
+        top: -20vh;
     }
 
     .icon-missao{
@@ -86,15 +86,15 @@
     .icon-visao{
         text-align: center;
         position: relative;
-        top: 15vh;
-        right:20vw;
+        top: 0vh;
+        right:18vw;
     }
     
     .icon-valores{
         text-align: center;
         position: relative;
         right: 60vw;
-        top: 12vh;
+        top: -22vh;
     }
     
     .icon-missao img{
