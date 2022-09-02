@@ -22,7 +22,7 @@
 .titulo-visao{
     font-size: 4vh;
     position: relative;
-    left: 42vw;
+    left: 41vw;
     bottom:30vh;
 }
 
@@ -72,7 +72,7 @@
     color:#181728;
     text-align: center;
     position: relative;
-    right: 42vw;
+    right: 43vw;
     top: -10vh;
 }
 
@@ -87,7 +87,7 @@
     text-align: center;
     position: relative;
     top: 0vh;
-    right:5vw;
+    right:7vw;
 }
 
 .icon-valores{
