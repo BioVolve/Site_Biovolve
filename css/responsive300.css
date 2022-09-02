@@ -1,4 +1,4 @@
-@media (max-width: 399px) and (max-height: 899px){
+@media (max-width: 399px) and (max-height: 9){
     /* VALORES */
     #valores{
         height: 120vh;
@@ -49,7 +49,7 @@
         text-align: center;
         position: relative;
         top: 2vh; 
-        right: 140vw;
+        right: 100vw;
     }
     
     .texto-missao{
@@ -72,7 +72,7 @@
         color:#181728;
         text-align: center;
         position: relative;
-        right: 48vw;
+        right: 50vw;
         top: -20vh;
     }
 
@@ -80,36 +80,36 @@
         text-align: center;
         position: relative;
         top: 14vh;
-        right: 66vw;
+        right: 65vw;
     }
     
     .icon-visao{
         text-align: center;
         position: relative;
         top: 0vh;
-        right:10vw;
+        right:12vw;
     }
     
     .icon-valores{
         text-align: center;
         position: relative;
-        right: 65vw;
+        right: 64vw;
         top: -22vh;
     }
-    
+
     .icon-missao img{
-        width: 100px;
-        height: 80px;
+        width: 14vh;
+        height: 14vh;
     }
     
     .icon-visao img{
-        width: 110px;
-        height: 70px;
+        width: 15vh;
+        height: 11vh;
     }
     
     .icon-valores img{
-        width:110px;
-        height:90px;
+        width:30vw;
+        height:15vh;
     }
 
     /* PROJETOS */
