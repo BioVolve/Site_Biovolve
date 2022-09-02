@@ -1,4 +1,4 @@
-@media (min-width: 300px){
+@media (max-width: 399px) and (max-height: 899px){
     /* VALORES */
     #valores{
         height: 120vh;
@@ -22,7 +22,7 @@
     .titulo-visao{
         font-size: 4vh;
         position: relative;
-        left: 35vw;
+        left: 42vw;
         bottom:27vh;
     }
 
@@ -36,7 +36,7 @@
     .titulo-valores{
         font-size: 4vh;
         position: relative;
-        right: 6vw;
+        right: 10vw;
         bottom: 46vh;
     }
 
@@ -48,8 +48,8 @@
         color:#181728;
         text-align: center;
         position: relative;
-        top: 0vh; 
-        right: 99vw;
+        top: 2vh; 
+        right: 140vw;
     }
     
     .texto-missao{
@@ -61,7 +61,7 @@
         text-align: center;
         position: relative;
         top: 21vh;
-        right: 60vw;
+        right: 50vw;
     }
 
     .texto-valores{
@@ -72,7 +72,7 @@
         color:#181728;
         text-align: center;
         position: relative;
-        right: 55vw;
+        right: 48vw;
         top: -20vh;
     }
 
@@ -87,13 +87,13 @@
         text-align: center;
         position: relative;
         top: 0vh;
-        right:18vw;
+        right:10vw;
     }
     
     .icon-valores{
         text-align: center;
         position: relative;
-        right: 60vw;
+        right: 65vw;
         top: -22vh;
     }
     
@@ -173,7 +173,73 @@
 
     /* INFO */
 
-    .form-content{
-        height: 45vh;
+    #info{
+        height: 80vh;
     }
+
+    .form-content{
+        height: 50vh;
+    }
+}
+
+@media (max-width: 499){
+    .bg-sobre img{
+        margin-top: 90px;
+        height: 142vh;
+    }
+
+    .text-container{
+        height: 90vh;
+        margin-top: -144.5vh;
+        margin-left: -10px;
+    }
+
+    .text{
+        margin-top: -10px;
+    }
+
+    .titulo{
+        font-size: 1vh;
+    }
+
+    .conteudo{
+        font-size: 2vh;
+        margin-left: 20px;
+    }
+
+    .subtitulo1 {
+        margin-top: 40px;
+        font-size: 4vh;
+        margin-left: 20px;
+    }
+
+    .subtitulo2{
+        margin-top: 40px;
+        font-size: 4vh;
+        margin-left: 20px;
+    }
+
+    .container-carrossel{
+        height: 25vh;
+    }
+
+    .bottomCard{
+        font-size: 12px;
+    }
+
+    .imgCard{
+        width: 60px;
+        height: 60px;
+    }
+
+    .swiper-button-next{
+        width: 60px;
+        height: 50px;
+    }
+
+    .swiper-button-prev{
+        width: 60px;
+        height: 50px;
+    }
+
 }
