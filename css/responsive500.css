@@ -1,4 +1,4 @@
-@media (min-width:400px) and (max-width: 499px) and (max-height: 999px){
+@media (min-width:400px) and (max-width: 499px) and (max-height: 799px){
 /* VALORES */
 #valores{
     height: 120vh;
@@ -22,26 +22,26 @@
 .titulo-visao{
     font-size: 4vh;
     position: relative;
-    left: 40vw;
+    left: 42vw;
     bottom:30vh;
 }
 
 .titulo-missao{
     font-size: 4vh;
     position: relative;
-    right: 10vw;
+    right: 8vw;
     bottom: 15vh;
 }
 
 .titulo-valores{
     font-size: 4vh;
     position: relative;
-    right: 10vw;
+    right: 7vw;
     bottom: 35vh;
 }
 
 .texto-visao{
-    width: 85vw;
+    width: 80vw;
     height: 40vh;
     font-weight: bold;
     font-size: 2.2vh;
@@ -49,7 +49,7 @@
     text-align: center;
     position: relative;
     top: -4vh; 
-    right: 105vw;
+    right: 92vw;
 }
 
 .texto-missao{
@@ -61,7 +61,7 @@
     text-align: center;
     position: relative;
     top: 21vh;
-    right: 55vw;
+    right: 45vw;
 }
 
 .texto-valores{
@@ -72,7 +72,7 @@
     color:#181728;
     text-align: center;
     position: relative;
-    right: 53vw;
+    right: 42vw;
     top: -10vh;
 }
 
@@ -80,20 +80,20 @@
     text-align: center;
     position: relative;
     top: 12vh;
-    right: 65vw;
+    right: 60vw;
 }
 
 .icon-visao{
     text-align: center;
     position: relative;
     top: 0vh;
-    right:16vw;
+    right:7vw;
 }
 
 .icon-valores{
     text-align: center;
     position: relative;
-    right: 64vw;
+    right: 58vw;
     top: -14vh;
 }
 
