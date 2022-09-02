@@ -1,4 +1,4 @@
-@media (max-width: 399px) and (max-height: 9){
+@media (max-width: 399px) and (max-height: 899px){
     /* VALORES */
     #valores{
         height: 120vh;
@@ -87,13 +87,13 @@
         text-align: center;
         position: relative;
         top: 0vh;
-        right:12vw;
+        right:10vw;
     }
     
     .icon-valores{
         text-align: center;
         position: relative;
-        right: 64vw;
+        right: 63vw;
         top: -22vh;
     }
 
