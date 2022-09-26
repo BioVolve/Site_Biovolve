@@ -138,6 +138,14 @@
         display: flex;
     }
 
+    .conteudo-projetos{
+        margin-left: 30px;
+    }
+
+    .conteudo-doar{
+        margin-left: 20px;
+    }
+
     .card-logo{
         width: 36vw;
         height: 16vh;
